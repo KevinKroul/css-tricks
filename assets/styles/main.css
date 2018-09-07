@@ -1,0 +1,231 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 17px;
+  width: 100%;
+  height: 75px;
+  font-family: Tahoma, sans-serif;
+  border-bottom: 8px solid #ff9800;
+}
+.header__logo {
+  width: 35px;
+  height: 35px;
+}
+.header__star-logo {
+  width: 35px;
+  height: 35px;
+  fill: #ccc;
+}
+.header__title {
+  width: 290px;
+  height: 24px;
+}
+.header__title-svg {
+  width: 190px;
+  height: 24px;
+}
+.header__search-field {
+  padding: 5px;
+  width: 242px;
+  height: 36px;
+  color: #222;
+  outline: 0;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+.header__button {
+  position: relative;
+  width: 58px;
+  height: 37px;
+  border-style: none;
+  background-color: #222;
+}
+.header__icon-search {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 22px;
+  height: 22px;
+  fill: white;
+}
+.layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  width: 100vw;
+  font-size: 14px;
+  background-color: #666;
+}
+.layout__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  margin-left: 20px;
+  padding: 16px;
+  width: 70%;
+  background-color: #222;
+}
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100px;
+  background-color: #222;
+}
+.nav__list {
+  padding-top: 15px;
+  list-style: none;
+}
+.nav__list-item {
+  padding-top: 10px;
+  width: 100px;
+  height: 90px;
+}
+.nav__list-item:first-child {
+  background-color: #eee;
+}
+.nav__list-item:first-child .nav__svg {
+  stroke: #222;
+  fill: #eee;
+}
+.nav__list-item:first-child .nav__text {
+  color: #222;
+}
+.nav__svg {
+  width: 40px;
+  height: 40px;
+  stroke: #eee;
+}
+.nav__text {
+  display: inline-block;
+  margin: auto;
+  color: #eee;
+}
+.nav__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100px;
+  height: 90px;
+  text-decoration: none;
+}
+.widget {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: white;
+}
+.widget__header {
+  width: 100%;
+}
+.widget__logo {
+  width: 100%;
+  height: 270px;
+  background-size: cover;
+  background-image: url("https://css-tricks.com/wp-content/uploads/2018/08/beginner-website-live-featured.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.widget__title {
+  padding-left: 40px;
+  padding-right: 20px;
+  padding-top: 10px;
+  line-height: 1;
+  font-weight: 900;
+  font-size: 2.6rem;
+}
+.widget__content {
+  padding: 10px 30px 0 40px;
+}
+.widget__info {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  background-color: #ccc;
+}
+.widget__text {
+  font-size: 18px;
+}
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}

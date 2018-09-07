@@ -1,0 +1,47 @@
+.widget {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: @white;
+
+    &__header {
+        width: 100%;
+
+    }
+
+    &__logo {
+        width: 100%;
+        height: 270px;
+        background-size: cover;
+        background-image: url("https://css-tricks.com/wp-content/uploads/2018/08/beginner-website-live-featured.jpg");
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+    }
+
+    &__title {
+        padding-left: 40px;
+        padding-right: 20px;
+        padding-top: 10px;
+        line-height: 1;
+        font-weight: 900;
+        font-size: 2.6rem;
+    }
+
+
+    &__content {
+        padding: 10px 30px 0 40px;
+    }
+
+    &__info {
+        margin-top: 5px;
+        margin-bottom: 15px;
+        background-color: @light-grey;
+    }
+
+    &__text {
+        font-size: @size-m;
+    }
+
+}
