@@ -1,0 +1,62 @@
+.link {
+    color: @link-hover;
+    font-size: @size-m;
+    text-decoration: none;
+
+    &:hover {
+        color: @black;
+    }
+
+    &._basic {
+        line-height: 1;
+        color: @black;
+        font-weight: bold;
+        font-size: 2.6rem;
+
+        &:hover {
+            color: @link-hover;
+        }
+    }
+
+    &._reverse-basic {
+        color: @link-hover;
+        font-weight: bold;
+        font-size: @size-xs;
+
+        &:hover {
+            color: @black;
+        }
+    }
+
+    &._widget-footer {
+        font-size: @size-xs;
+        font-weight: bold;
+        color: @info-text;
+        text-transform: uppercase;
+
+        &:hover {
+            color: @link-hover;
+        }
+    }
+
+    &._text {
+        font-size: @size-s;
+        color: @background-wrapper;
+        font-weight: bold;
+
+        &:hover {
+            color: @black;
+            cursor: pointer;
+        }
+    }
+
+    &._nav {
+        font-size: @size-m;
+        color: @black;
+
+        &:hover {
+            font-weight: bold;
+        }
+    }
+
+}

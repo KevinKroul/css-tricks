@@ -1,0 +1,5 @@
+<svg class="nav__svg" viewBox="0 0 64 64" width="0" height="0"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path fill="none" d="M7 1h46v62H7z"></path>
+                            <path fill="none" vector-effect="non-scaling-stroke" d="M15 63V2M20 15h28M20 21h28"></path>
+                        </svg>

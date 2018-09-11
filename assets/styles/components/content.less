@@ -1,0 +1,23 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: @size-s;
+    background-color: @grey-medium;
+
+    &__wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: flex-start;
+        padding: 16px;
+        width: 70%;
+        @media (max-width: 700px) {
+            width: 100%;
+        }
+        background-color: @background-wrapper;
+    }
+}
